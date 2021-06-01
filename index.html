@@ -4,9 +4,68 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<link rel="stylesheet" href="prueba.css">-->
     <title>metas</title>
 </head>
-<body>
-    los sueños se suspiran y las metas se trabajan
+<body onload="mostrarMensaje()"> 
+
+<!--<div>
+    <img src="https://www.latercera.com/resizer/3uyOm2Pr3paToPPvtWN25AQf32g=/900x600/smart/arc-anglerfish-arc2-prod-copesa.s3.amazonaws.com/public/G2SH7TAZKBE43O7PMB3NXLR3CE.jpg" alt="">
+    <img src="https://depor.com/resizer/RiU3nYQqC6iyOU2O_pMmCO6UlzA=/580x330/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/373KKO7XL5D37KCDKU2J5JOCQA.jpg">
+    <img src="rapunzel.webp">
+    <img src="https://3.bp.blogspot.com/-2F5CBcSeVbs/VtVvzRarBYI/AAAAAAAAMHA/1F30Ax_zWks/s1600/zootopia-zootropolis-poster.jpg">
+</div>
+<div class="hermoso" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M-0.84,0.50 C87.75,285.69 496.89,-112.98 503.67,80.42 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: rgb(122, 73, 236);"></path></svg></div>
+<script type="text/javascript" src="index.js"></script>-->
+
+<h1>EJERCICIOS LENGUAJE (01-06)</h1>
+
+<p id="demo1"> </p>
+<p id="demo2"> </p>
+<p id="demo3"> </p>
+<p id="demo4"> </p>
+<p id="demo5"> </p>
+<p id="demo6"> </p>
+<p id="demo7"> <input type="button"> </p>
+<p id="demo8">  </p>
+<p id="demo9"> </p>
+<p id="demo10"></p>
+<p id="demo11"></p>
+<p id="demo12"></p>
+
+<script>
+//EJERCICIO 01
+var nu = 18;
+if (nu > 16) {
+document.getElementById("demo1").innerHTML = "EJERCICIO 01"
+document.getElementById("demo2").innerHTML =
+"La persona es adulta: " + nu;
+}
+//EJERCICIO 02
+var m1 = "Soñar no te hará ningún bien si olvidas vivir.";
+document.getElementById("demo3").innerHTML = "EJERCICIO 02"
+document.getElementById("demo4").innerHTML = m1 
+document.getElementById("demo5").innerHTML ="La cantidad de caracteres del texto es: " + m1.length
+//EJERCICIO 03
+document.getElementById("demo6").innerHTML = "EJERCICIO 03"
+boton = document.getElementById("demo7");
+boton.onclick = function(){
+   document.write("Shirley, Gonzales Palacios, 17 años me gusta dormir v':");
+}
+//EJERCICIO 04
+document.getElementById("demo8").innerHTML = "EJERCICIO 04"
+var dni = [7,2,2,0,7,1,4,5];
+var igual= "SI";
+var max = 7;
+document.getElementById("demo9").innerHTML = "El mayor es " + max + " y " + igual + " hay números repetidos"
+//EJERCICIO 05
+document.getElementById("demo10").innerHTML = "EJERCICIO 05"
+var a = 27;
+var b = 11;
+var suma = a+b
+var resta = a-b
+document.getElementById("demo11").innerHTML = "La suma es: " + suma
+document.getElementById("demo12").innerHTML = "La resta es: " + resta
+</script>
 </body>
 </html>
