@@ -16,56 +16,68 @@
     <img src="https://3.bp.blogspot.com/-2F5CBcSeVbs/VtVvzRarBYI/AAAAAAAAMHA/1F30Ax_zWks/s1600/zootopia-zootropolis-poster.jpg">
 </div>
 <div class="hermoso" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M-0.84,0.50 C87.75,285.69 496.89,-112.98 503.67,80.42 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: rgb(122, 73, 236);"></path></svg></div>
-<script type="text/javascript" src="index.js"></script>-->
+<script(type="text/javascript" src="index.js"></script>-->
 
 <h1>EJERCICIOS LENGUAJE (01-06)</h1>
 
-<p id="demo1"> </p>
-<p id="demo2"> </p>
-<p id="demo3"> </p>
-<p id="demo4"> </p>
-<p id="demo5"> </p>
-<p id="demo6"> </p>
-<p id="demo7"> <input type="button"> </p>
-<p id="demo8">  </p>
-<p id="demo9"> </p>
-<p id="demo10"></p>
-<p id="demo11"></p>
-<p id="demo12"></p>
+<p id="funcion1"> </p>
+<p id="funcion2"> </p>
+<p id="funcion3"> </p>
+<p id="funcion4"> </p>
+<p id="funcion5"> </p>
+<p id="funcion6"> </p>
+<p id="funcion7"> <input type="button" value="llamado"  > </p>
+<p id="funcion8">  </p>
+<p id="funcion9"> </p>
+<p id="funcion10"></p>
+<p id="funcion11"></p>
+<p id="funcion12"></p>
 
 <script>
-//EJERCICIO 01
+//FUNCIÓN 1
 var nu = 18;
 if (nu > 16) {
-document.getElementById("demo1").innerHTML = "EJERCICIO 01"
-document.getElementById("demo2").innerHTML =
-"La persona es adulta: " + nu;
+document.getElementById("funcion1").innerHTML = "FUNCION 1"
+document.getElementById("funcion2").innerHTML ="Es una persona adulta: " + nu;
 }
-//EJERCICIO 02
-var m1 = "Soñar no te hará ningún bien si olvidas vivir.";
-document.getElementById("demo3").innerHTML = "EJERCICIO 02"
-document.getElementById("demo4").innerHTML = m1 
-document.getElementById("demo5").innerHTML ="La cantidad de caracteres del texto es: " + m1.length
-//EJERCICIO 03
-document.getElementById("demo6").innerHTML = "EJERCICIO 03"
-boton = document.getElementById("demo7");
+//FUNCIÓN 2
+var m1 = "Alimentate correctamente, toma agua.";
+document.getElementById("funcion3").innerHTML = "FUNCION 2"
+document.getElementById("funcion4").innerHTML = m1 
+document.getElementById("funcion5").innerHTML ="La cantidad de caracteres del texto es: " + m1.length
+//FUNCIÓN 3
+document.getElementById("funcion6").innerHTML = "FUNCION 3"
+boton = document.getElementById("funcion7");
 boton.onclick = function(){
-   document.write("Shirley, Gonzales Palacios, 17 años me gusta dormir v':");
+   document.write("Es una persona adulta: " + nu);
 }
-//EJERCICIO 04
-document.getElementById("demo8").innerHTML = "EJERCICIO 04"
-var dni = [7,2,2,0,7,1,4,5];
+//FUNCIÓN 4
+document.getElementById("funcion8").innerHTML = "FUNCION 4"
+var DNI = [7,0,9,7,2,9,5,8];
 var igual= "SI";
-var max = 7;
-document.getElementById("demo9").innerHTML = "El mayor es " + max + " y " + igual + " hay números repetidos"
-//EJERCICIO 05
-document.getElementById("demo10").innerHTML = "EJERCICIO 05"
+var max = 9;
+document.getElementById("funcion9").innerHTML = "El mayor es " + max + " y " + igual + " hay números repetidos"
+//FUNCIN 5
+document.getElementById("funcion10").innerHTML = "FUNCION 5"
 var a = 27;
 var b = 11;
 var suma = a+b
 var resta = a-b
-document.getElementById("demo11").innerHTML = "La suma es: " + suma
-document.getElementById("demo12").innerHTML = "La resta es: " + resta
+document.getElementById("funcion11").innerHTML = "La suma es: " + suma
+document.getElementById("funcion12").innerHTML = "La resta es: " + resta
 </script>
+<button onclick="
+let numeroSumar=numero4+ numero5
+alert('El resultado es ' + numeroSumar)">Sumar</button>
+<button onclick="
+let numeroSumar=numero4- numero5
+alert('El resultado es ' + numeroSumar)">Restar</button>
+<button onclick="
+let numeroSumar=numero4* numero5
+alert('El resultado es ' + numeroSumar)">Multiplicar</button>
+<button onclick="
+let numeroSumar=numero4/ numero5
+alert('El resultado es ' + numeroSumar)">Dividir</button>
+<script src="index.js"></script>
 </body>
 </html>
